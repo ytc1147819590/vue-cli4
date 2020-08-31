@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './plugins/element'
+import './plugins/iView'
 
 Vue.config.productionTip = false
 
