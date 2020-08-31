@@ -1,5 +1,5 @@
 const store = {
-    name: 1
+    name: ''
 }
 
 export default store
