@@ -1,5 +1,10 @@
-const Timestamp = new Date().getTime();
 const webpack = require("webpack");
+const path = require("path");
+const Timestamp = new Date().getTime();
+
+function resolve(dir) {
+    return path.join(__dirname, dir);
+  }
 
 module.exports = {
     // 设置打包文件相对路径
@@ -14,6 +19,17 @@ module.exports = {
     productionSourceMap: false,
     //保存时是否用eslint-loader检查
     lintOnSave: true,
+
+    chainWebpack: config => {
+        config.resolve.alias
+        .set("@", resolve("src"))
+        .set("@images", resolve("src/assets/images"))
+
+        // 移除 prefetch 插件
+        config.plugins.delete("prefetch");
+        // 移除 preload 插件，避免加载多余的资源
+        config.plugins.delete("preload");
+    },
 
     configureWebpack: {
         output: {
