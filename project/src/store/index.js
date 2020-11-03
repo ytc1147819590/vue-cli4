@@ -14,7 +14,11 @@ const store = new Vuex.Store({
     getters,
     actions,
     mutations,
-    plugins: [persistedState()]
+
+    // 设置为浏览器缓存
+    plugins: [persistedState(
+        { storage: window.sessionStorage }
+    )]
 })
 
 export default store;
