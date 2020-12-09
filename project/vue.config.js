@@ -1,12 +1,14 @@
 const webpack = require("webpack");
 const path = require("path");
-const Timestamp = new Date().getTime();
+const Timestamp = new Date().getFullYear();
 
 function resolve(dir) {
     return path.join(__dirname, dir);
   }
 
 module.exports = {
+    // 例如 https://www.my-app.com/。如果应用被部署在一个子路径上，你就需要用这个选项指定这个子路径。例如，如果你的应用被部署在 https://www.my-app.com/my-app/，则设置 baseUrl 为 /my-app/。
+    baseUrl: process.env.NODE_ENV === "production" ? "./" : "/",
     // 设置打包文件相对路径
     publicPath: "./",
     // 构建时输出的目录
@@ -20,7 +22,9 @@ module.exports = {
     //保存时是否用eslint-loader检查
     lintOnSave: true,
 
+    // 允许对内部的 webpack 配置进行更细粒度的修改。
     chainWebpack: config => {
+        // alias 自定义路径
         config.resolve.alias
         .set("@", resolve("src"))
         .set("@images", resolve("src/assets/images"))
