@@ -1,0 +1,355 @@
+// flex布局 公共样式
+.flex-box {
+  display: flex;
+}
+
+.flex-jus-start {
+  justify-content: flex-start;
+}
+
+.flex-jus-center {
+  justify-content: center;
+}
+
+.flex-jus-end {
+  justify-content: flex-end;
+}
+
+.flex-jus-bet {
+  justify-content: space-between;
+}
+
+.flex-jus-aro {
+  justify-content: space-around;
+}
+
+.flex-jus-eve {
+  justify-content: space-evenly;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-dir {
+  flex-direction: column;
+}
+
+// 公共样式
+.rel {
+  position: relative;
+}
+
+.cur {
+  cursor: pointer;
+}
+
+.abs {
+  position: absolute;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.verCenter {
+  vertical-align: middle;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.mart80 {
+  margin-top: 80px !important;
+}
+
+.mart50 {
+  margin-top: 50px !important;
+}
+
+.mart45 {
+  margin-top: 45px !important;
+}
+
+.mart40 {
+  margin-top: 40px !important;
+}
+
+.mart35 {
+  margin-top: 35px !important;
+}
+
+.mart30 {
+  margin-top: 30px !important;
+}
+
+.mart25 {
+  margin-top: 25px !important;
+}
+
+.mart20 {
+  margin-top: 20px !important;
+}
+
+.mart15 {
+  margin-top: 15px !important;
+}
+
+.mart10 {
+  margin-top: 10px !important;
+}
+
+.mart5 {
+  margin-top: 5px !important;
+}
+
+.mart0 {
+  margin-top: 0 !important;
+}
+
+.marb0 {
+  margin-bottom: 0px !important;
+}
+
+.marb5 {
+  margin-bottom: 5px !important;
+}
+
+.marb10 {
+  margin-bottom: 10px !important;
+}
+
+.marb15 {
+  margin-bottom: 15px !important;
+}
+
+.marb20 {
+  margin-bottom: 20px !important;
+}
+
+.marb25 {
+  margin-bottom: 25px !important;
+}
+
+.marb30 {
+  margin-bottom: 30px !important;
+}
+
+.marb35 {
+  margin-bottom: 35px !important;
+}
+
+.marb40 {
+  margin-bottom: 40px !important;
+}
+
+.marb45 {
+  margin-bottom: 45px !important;
+}
+
+.marb50 {
+  margin-bottom: 50px !important;
+}
+
+.marr0 {
+  margin-right: 0px !important;
+}
+
+.marr5 {
+  margin-right: 5px !important;
+}
+
+.marr10 {
+  margin-right: 10px !important;
+}
+
+.marr15 {
+  margin-right: 15px !important;
+}
+
+.marr20 {
+  margin-right: 20px !important;
+}
+
+.marr25 {
+  margin-right: 25px !important;
+}
+
+.marr30 {
+  margin-right: 30px !important;
+}
+
+.marr35 {
+  margin-right: 35px !important;
+}
+
+.marr40 {
+  margin-right: 40px !important;
+}
+
+.marr45 {
+  margin-right: 45px !important;
+}
+
+.marr50 {
+  margin-right: 50px !important;
+}
+
+.marr100 {
+  margin-right: 100px !important;
+}
+
+.marl0 {
+  margin-left: 0px !important;
+}
+
+.marl5 {
+  margin-left: 5px !important;
+}
+
+.marl10 {
+  margin-left: 10px !important;
+}
+
+.marl15 {
+  margin-left: 15px !important;
+}
+
+.marl20 {
+  margin-left: 20px !important;
+}
+
+.marl25 {
+  margin-left: 25px !important;
+}
+
+.marl30 {
+  margin-left: 30px !important;
+}
+
+.marl35 {
+  margin-left: 35px !important;
+}
+
+.marl40 {
+  margin-left: 40px !important;
+}
+
+.marl45 {
+  margin-left: 45px !important;
+}
+
+.marl50 {
+  margin-left: 50px !important;
+}
+
+.marlr10 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.marlr15 {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.marlr20 {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.marlr25 {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+
+.marlr30 {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.marlr35 {
+  margin-left: 35px !important;
+  margin-right: 35px !important;
+}
+
+.marlr40 {
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+.marlr45 {
+  margin-left: 45px !important;
+  margin-right: 45px !important;
+}
+
+.marlr50 {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+.margin20 {
+  margin: 20px !important;
+}
+
+.margin25 {
+  margin: 25px !important;
+}
+
+.margin30 {
+  margin: 30px !important;
+}
+
+.margin35 {
+  margin: 35px !important;
+}
+
+.margin40 {
+  margin: 40px !important;
+}
+
+.margin45 {
+  margin: 45px !important;
+}
+
+.margin50 {
+  margin: 50px !important;
+}
+
+.paddlr20 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
